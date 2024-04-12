@@ -2,22 +2,26 @@
 
 * It contains 'kotlin-lib' separate module
 
+# Screenshots
 
+<img alt="" src="files%2Fimages%2Fdesktop%20screenshot.jpg" />
+
+<img alt="" src="files%2Fimages%2Fandroid%20screenshot.jpg" width="250"/>
 
 * Before running!
- - install JDK 17 or higher on your machine
- - add `local.properties` file to the project root and set a path to Android SDK there
+- install JDK 17 or higher on your machine
+- add `local.properties` file to the project root and set a path to Android SDK there
 
 * Android
-To run the application on android device/emulator:  
- - open project in Android Studio and run imported android run configuration
+  To run the application on android device/emulator:
+- open project in Android Studio and run imported android run configuration
 
 To build the application bundle:
- - run `./gradlew :composeApp:assembleDebug`
- - find `.apk` file in `composeApp/build/outputs/apk/debug/composeApp-debug.apk`
-Run android simulator UI tests: `./gradlew :composeApp:pixel5Check`
+- run `./gradlew :composeApp:assembleDebug`
+- find `.apk` file in `composeApp/build/outputs/apk/debug/composeApp-debug.apk`
+  Run android simulator UI tests: `./gradlew :composeApp:pixel5Check`
 
 * Desktop
-Run the desktop application: `./gradlew :composeApp:run`
-Run desktop UI tests: `./gradlew :composeApp:jvmTest`
+  Run the desktop application: `./gradlew :composeApp:run`
+  Run desktop UI tests: `./gradlew :composeApp:jvmTest`
 
